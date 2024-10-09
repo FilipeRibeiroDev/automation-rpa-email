@@ -57,7 +57,7 @@ namespace AutomationEmail.Providers
         public void SendEmail(string toEmail, string subject, string body)
         {
             var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress("Brabo Dev", "wedin12369@gmail.com"));
+            emailMessage.From.Add(new MailboxAddress("Brabo Dev", "brabo@gmail.com"));
             emailMessage.To.Add(new MailboxAddress("", toEmail));
             emailMessage.Subject = subject;
 
