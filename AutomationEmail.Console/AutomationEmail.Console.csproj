@@ -8,16 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="client_secret.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="client_secret.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AutomationEmail.Providers\AutomationEmail.Providers.csproj" />
   </ItemGroup>
 
